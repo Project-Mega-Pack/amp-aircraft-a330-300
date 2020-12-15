@@ -1,0 +1,15 @@
+{
+  "dependencies": [],
+  "content_type": "AIRCRAFT",
+  "title": "Airbus A321 FSX",
+  "manufacturer": "Airbus",
+  "creator": "Microsoft Corporation",
+  "package_version": "1.0.0",
+  "minimum_game_version": "1.17.10",
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  }
+}
