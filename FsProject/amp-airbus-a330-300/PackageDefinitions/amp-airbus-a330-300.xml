@@ -1,0 +1,31 @@
+<AssetPackage Name="amp-airbus-a330-300" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>AIRCRAFT</ContentType>
+		<Title>AMP Airbus A330-300</Title>
+		<Manufacturer>Airbus</Manufacturer>
+		<Creator>Aircraft Mega Pack</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>true</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="amp-airbus-a330-300">
+			<Type>SimObject</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\SimObjects\Airplanes\amp-airbus-a330-300\</AssetDir>
+			<OutputDir>SimObjects\Airplanes\amp-airbus-a330-300\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\amp-airbus-a330-300\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\amp-airbus-a330-300</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
