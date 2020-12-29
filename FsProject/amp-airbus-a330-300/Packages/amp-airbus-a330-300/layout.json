@@ -7,28 +7,28 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/ai.cfg",
-      "size": 801,
-      "date": 132499720042782186
+      "size": 1499,
+      "date": 132537518811785811
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/aircraft.cfg",
-      "size": 4536,
-      "date": 132524590285066359
+      "size": 3423,
+      "date": 132537518818777113
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/approach.FLT",
-      "size": 3775,
-      "date": 132484935736347176
+      "size": 3637,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/apron.FLT",
-      "size": 3947,
-      "date": 132423648852056570
+      "size": 3800,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/cameras.cfg",
-      "size": 30731,
-      "date": 132509155670945226
+      "size": 28518,
+      "date": 132537518710633583
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/Checklist/Airbus_A320neo_Checklist.xml",
@@ -42,43 +42,43 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/Climb.flt",
-      "size": 3864,
-      "date": 132484935736367179
+      "size": 3722,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/cockpit.cfg",
-      "size": 5192,
-      "date": 132423648852123109
+      "size": 4848,
+      "date": 132537518804200104
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/cruise.FLT",
-      "size": 3863,
-      "date": 132484935736367179
+      "size": 3721,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/engines.cfg",
-      "size": 10491,
-      "date": 132509155666738504
+      "size": 8330,
+      "date": 132537518752455552
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/final.FLT",
-      "size": 3885,
-      "date": 132484935736377181
+      "size": 3745,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/flight_model.cfg",
-      "size": 25388,
-      "date": 132509155666788498
+      "size": 24567,
+      "date": 132537518750265054
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/gameplay.cfg",
-      "size": 916,
-      "date": 132423648852183115
+      "size": 871,
+      "date": 132537518805300328
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/hangar.flt",
-      "size": 3560,
-      "date": 132484935736387197
+      "size": 3432,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR.xml",
@@ -88,52 +88,52 @@
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD00.bin",
       "size": 18770652,
-      "date": 132536879176998707
+      "date": 132537486398612342
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD00.gltf",
       "size": 2491166,
-      "date": 132536879177298867
+      "date": 132537486399082359
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD01.bin",
       "size": 18721664,
-      "date": 132536879182831346
+      "date": 132537486405173747
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD01.gltf",
       "size": 2484417,
-      "date": 132536879183121412
+      "date": 132537486405613838
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD02.bin",
       "size": 4963720,
-      "date": 132536879185742097
+      "date": 132537486408270264
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD02.gltf",
       "size": 40897,
-      "date": 132536879185772016
+      "date": 132537486408300276
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD03.bin",
       "size": 1789378,
-      "date": 132536879186122088
+      "date": 132537486408740387
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD03.gltf",
       "size": 38475,
-      "date": 132536879186142097
+      "date": 132537486408760385
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD04.bin",
       "size": 584320,
-      "date": 132536879186302125
+      "date": 132537486408960420
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD04.gltf",
       "size": 36827,
-      "date": 132536879186322131
+      "date": 132537486408990434
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A330_300_EXTERIOR.xml",
@@ -142,18 +142,18 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.bin",
-      "size": 24197342,
-      "date": 132536879173222597
+      "size": 25062006,
+      "date": 132537509141272212
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.gltf",
-      "size": 333775,
-      "date": 132536879173262611
+      "size": 360371,
+      "date": 132537509143528557
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/model.CFG",
-      "size": 598,
-      "date": 132526375229658757
+      "size": 600,
+      "date": 132537519831115308
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/Notice.txt",
@@ -167,13 +167,13 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/runway.FLT",
-      "size": 3896,
-      "date": 132484935738087707
+      "size": 3746,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/sound/Asobo_A320_NEO.PC.PCK",
-      "size": 59377074,
-      "date": 132517905550000000
+      "size": 59385096,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/sound/Autopilot.wav",
@@ -532,8 +532,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/sound/sound.xml",
-      "size": 26708,
-      "date": 132525324548060663
+      "size": 29376,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/sound/Splash.wav",
@@ -652,18 +652,18 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/systems.cfg",
-      "size": 17930,
-      "date": 132460764936474640
+      "size": 22026,
+      "date": 132537518763067951
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/target_performance.cfg",
-      "size": 1836,
-      "date": 132423648862796476
+      "size": 1774,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/taxi.flt",
-      "size": 3793,
-      "date": 132484935738097710
+      "size": 3650,
+      "date": 132535923030000000
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/texture.Default/texture.CFG",
