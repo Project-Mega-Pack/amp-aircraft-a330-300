@@ -89,7 +89,7 @@
     <Visibility>
       <Parameter>
         <Code>
-          (A:TURB ENG N2:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
+          (A:TURB ENG N1:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
         </Code>
       </Parameter>
     </Visibility>
@@ -101,9 +101,9 @@
         <Visibility>
             <Parameter>
                 <Code>
-                    (A:TURB ENG N2:1, percent) 6.25 &gt;
+                    (A:TURB ENG N1:2, percent) 6.25 &gt;
                     if{
-                        (A:TURB ENG N2:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
+                        (A:TURB ENG N1:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
                     } els{ 0 }
                 </Code>
             </Parameter>
@@ -116,7 +116,7 @@
         <Visibility>
             <Parameter>
                 <Code>
-            (A:TURB ENG N2:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
+            (A:TURB ENG N1:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
                 </Code>
             </Parameter>
         </Visibility>
