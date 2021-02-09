@@ -6,5 +6,361 @@
 		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
 		<!-- default minSize is 0 -->
 		<LOD ModelFile="Exterior_A330.gltf" minSize="50"/>
+
+
 	</LODS>
+	<Animation name="c_wheel" 			    guid="BC935F16-43CD-4046-8EF3-06E44A5940AB" length="200" type="Sim" typeparam2="c_wheel" typeparam="AutoPlay" />
+	
+	<Animation name="c_gear" 				guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeparam2="c_gear" typeparam="AutoPlay" />
+	<Animation name="l_gear" 				guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="100" type="Sim" typeparam2="l_gear" typeparam="AutoPlay" />  
+	<Animation name="r_gear" 				guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="100" type="Sim" typeparam2="r_gear" typeparam="AutoPlay" />
+	
+	<Animation name="c_tire_anim" 			guid="40470978-5D39-4709-94F2-0406CC893774" length="100" type="Sim" typeParam2="c_tire_anim" typeParam="AutoPlay" />	
+	<Animation name="l_tire_anim" 			guid="59A85118-0DDD-46D1-81BC-62B7E1A46782" length="100" type="Sim" typeParam2="l_tire_anim" typeParam="AutoPlay" />  
+	<Animation name="r_tire_anim" 			guid="0FE2DDBC-B7B0-41EC-9B7A-EE04C5B02446" length="100" type="Sim" typeParam2="r_tire_anim" typeParam="AutoPlay" />	
+
+	<Animation name="engine_blurred_l" 		guid="a30d1108-0e02-4e78-a41a-4c072a815e90" length="100" type="Sim" typeParam2="engine_blurred_l" typeParam="AutoPlay" />
+	<Animation name="engine_slow_l" 	    guid="b964023e-998f-40bf-9875-19f21c3b8031" length="100" type="Sim" typeParams2="engine_slow_l" typeParam="AutoPlay" />
+	<Animation name="engine_still_l" 		guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" length="100" type="Sim" typeParam2="engine_still_l" typeParam="AutoPlay" />
+	<Animation name="l_reversers" 			guid="cd72f6d2-f8ba-4ae4-a433-7454a3238b69" length="100" type="Sim" typeParam2="l_reversers" typeParam="AutoPlay" />
+	
+	<Animation name="engine_blurred_r" 		guid="5b073f14-9565-45fb-8100-f42b305e56da" length="100" type="Sim" typeParam2="engine_blurred_r" typeParam="AutoPlay" />
+	<Animation name="engine_slow_r" 		guid="7fb09199-1c16-4b20-a43d-abd472cabc00" length="100" type="Sim" typeParam2="engine_slow_r" typeParam="AutoPlay" />
+	<Animation name="engine_still_r" 		guid="12311351-ac2c-4b4e-af4b-1fd1a4104dc1" length="100" type="Sim" typeParam2="engine_still_r" typeParam="AutoPlay" />
+	<Animation name="r_reversers" 			guid="1dcfa717-9dd1-4690-af47-2b0094146685" length="100" type="Sim" typeParam2="r_reversers" typeParam="AutoPlay" />
+
+	<Animation name="elevators" 	        guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam2="elevators" typeParam="AutoPlay" />
+	<Animation name="vert_stab_trim" 	    guid="4735e612-3dbd-484c-b3b8-f21ab4ba8f8d" length="100" type="Sim" typeParam2="vert_stab_trim" typeParam="AutoPlay" />
+	
+	<Animation name="l_ailerons"            guid="bad53e9a-1958-4b22-90fe-23513d121db3" length="100" type="Sim" typeParam2="l_ailerons" typeParam="AutoPlay" />
+	<Animation name="r_ailerons"            guid="77db62be-36d4-4c03-bea7-c4cc2a224d9d" length="100" type="Sim" typeParam2="r_ailerons" typeParam="AutoPlay" />
+
+	<Animation name="l_spoilers"            guid="f7eeff76-41dd-4826-9ce8-89b907aecb6a" length="100" type="Sim" typeParam2="l_spoilers" typeParam="AutoPlay" />
+	<Animation name="r_spoilers"            guid="17a69691-2bca-48ef-acb7-ccbc2891af3e" length="100" type="Sim" typeParam2="r_spoilers" typeParam="AutoPlay" />
+
+	<Animation name="l_flap_percent_key" 	guid="DB029E5C-1A48-42d5-8290-EF098DFABB4F" length="100" type="Sim" typeparam2="l_flap_percent_key" typeparam="AutoPlay" />
+	<Animation name="r_flap_percent_key" 	guid="3849E47F-9088-4699-8959-EC0C54DF8015" length="100" type="Sim" typeparam2="r_flap_percent_key" typeparam="AutoPlay" />
+
+	<Animation name="rudder" 	            guid="5433b2a0-0fd9-4192-8f7d-0ba36bf7191d" length="100" type="Sim" typeParam2="rudder" typeParam="AutoPlay" />
+
+	<Animation name="l_door" 	            guid="88f02add-0dd2-4ae0-9c45-d0c84ddde437" length="100" type="Sim" typeParam2="l_door" typeParam="AutoPlay" />
+	
+  <PartInfo>
+    <Name>engine_still_l</Name>
+    <AnimLength>100</AnimLength>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:TURB ENG N1:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+
+  <PartInfo>
+      <Name>engine_slow_l</Name>
+        <AnimLength>100</AnimLength>
+        <Visibility>
+            <Parameter>
+                <Code>
+                    (A:TURB ENG N1:1, percent) 6.25 &gt;
+                    if{
+                        (A:TURB ENG N1:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
+                    } els{ 0 }
+                </Code>
+            </Parameter>
+        </Visibility>
+    </PartInfo>
+    
+    <PartInfo>
+        <Name>engine_blurred_l</Name>
+        <AnimLength>100</AnimLength>
+        <Visibility>
+            <Parameter>
+                <Code>
+            (A:TURB ENG N1:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+                </Code>
+            </Parameter>
+        </Visibility>
+    </PartInfo>
+	<PartInfo>
+    <Name>engine_still_r</Name>
+    <AnimLength>100</AnimLength>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:TURB ENG N2:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+
+  <PartInfo>
+      <Name>engine_slow_r</Name>
+        <AnimLength>100</AnimLength>
+        <Visibility>
+            <Parameter>
+                <Code>
+                    (A:TURB ENG N2:1, percent) 6.25 &gt;
+                    if{
+                        (A:TURB ENG N2:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
+                    } els{ 0 }
+                </Code>
+            </Parameter>
+        </Visibility>
+    </PartInfo>
+    
+    <PartInfo>
+        <Name>engine_blurred_r</Name>
+        <AnimLength>100</AnimLength>
+        <Visibility>
+            <Parameter>
+                <Code>
+            (A:TURB ENG N2:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
+                </Code>
+            </Parameter>
+        </Visibility>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>c_gear</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:0</Variable>
+					<Units>number</Units>
+                    <Scale>100</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>l_gear</Name>
+		<Copy>c_gear</Copy>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:2</Variable>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+    <PartInfo>
+        <Name>r_gear</Name>
+		<Copy>c_gear</Copy>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:2</Variable>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>c_tire_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+                    <Units>radians</Units>
+                    <Bias>0</Bias>
+                    <Scale>15.91</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>l_tire_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>LEFT WHEEL ROTATION ANGLE</Variable>
+                    <Units>radians</Units>
+                    <Bias>0</Bias>
+                    <Scale>15.91</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>r_tire_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>RIGHT WHEEL ROTATION ANGLE</Variable>
+                    <Units>radians</Units>
+                    <Bias>0</Bias>
+                    <Scale>15.91</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>elevators</Name>
+        <AnimLength>80</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>ELEVATOR DEFLECTION PCT</Variable>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>vert_stab_trim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>ELEVATOR TRIM PCT</Variable>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>l_ailerons</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>AILERON LEFT DEFLECTION PCT</Variable>
+                    <Scale>1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>r_ailerons</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>AILERON RIGHT DEFLECTION PCT</Variable>
+                    <Scale>1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+		<Name>l_flap_percent_key</Name>
+		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+				<Sim>
+					<Variable>TRAILING EDGE FLAPS LEFT PERCENT</Variable>
+					<Units>percent</Units>
+					<Scale>1</Scale>
+					<Bias>0</Bias>
+				</Sim>
+			</Parameter>
+		</Animation>
+	</PartInfo>
+
+	<PartInfo>
+		<Name>r_flap_percent_key</Name>
+		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+				<Sim>
+					<Variable>TRAILING EDGE FLAPS RIGHT PERCENT</Variable>
+					<Units>percent</Units>
+					<Scale>1</Scale>
+					<Bias>0</Bias>
+				</Sim>
+			</Parameter>
+		</Animation>
+	</PartInfo>
+
+	<PartInfo>
+		<Name>l_spoilers</Name>
+		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+				<Sim>
+					<Variable>SPOILERS LEFT POSITION</Variable>
+					<Units>percent</Units>
+					<Scale>1</Scale>
+					<Bias>0</Bias>
+				</Sim>
+			</Parameter>
+		</Animation>
+	</PartInfo>
+	
+	<PartInfo>
+		<Name>r_spoilers</Name>
+		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+				<Sim>
+					<Variable>SPOILERS RIGHT POSITION</Variable>
+					<Units>percent</Units>
+					<Scale>1</Scale>
+					<Bias>0</Bias>
+				</Sim>
+			</Parameter>
+		</Animation>
+	</PartInfo>
+
+	<PartInfo>
+        <Name>rudder</Name>
+        <AnimLength>80</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>RUDDER DEFLECTION PCT</Variable>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+    
+    <Behaviors>
+        <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+        <Component ID="ENGINE">
+            <UseTemplate Name="ASOBO_ENGINE_Turbine_ReverseThrust_Template">
+				<ID>1</ID>
+				<ANIM_NAME>l_reversers</ANIM_NAME>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_ReverseThrust_Template">
+				<ID>2</ID>
+				<ANIM_NAME>r_reversers</ANIM_NAME>
+			</UseTemplate>
+        </Component>
+        <Component ID="GEARS">
+            <UseTemplate Name="ASOBO_GEAR_Steering_Template">
+				<ANIM_NAME>c_wheel</ANIM_NAME>
+			</UseTemplate>
+        </Component>
+        <Component ID="INTERACTIVE_POINTS">
+			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
+				<ID>0</ID>
+				<ANIM_NAME>l_door</ANIM_NAME>
+			</UseTemplate>
+		</Component>
+    </Behaviors>
 </ModelInfo>
