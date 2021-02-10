@@ -42,6 +42,7 @@
 	<Animation name="r_flap_percent_key" 	guid="3849E47F-9088-4699-8959-EC0C54DF8015" length="100" type="Sim" typeparam2="r_flap_percent_key" typeparam="AutoPlay" />
 
 	<Animation name="rudder" 	            guid="5433b2a0-0fd9-4192-8f7d-0ba36bf7191d" length="100" type="Sim" typeParam2="rudder" typeParam="AutoPlay" />
+	<Animation name="rudder_trim" 	        guid="9ccd997c-401c-4ab2-aecc-b9acdea1c4e6" length="100" type="Sim" typeParam2="rudder_trim" typeParam="AutoPlay" />
 
 	<Animation name="l_door" 	            guid="88f02add-0dd2-4ae0-9c45-d0c84ddde437" length="100" type="Sim" typeParam2="l_door" typeParam="AutoPlay" />
 	
@@ -332,6 +333,20 @@
             <Parameter>
                 <Sim>
                     <Variable>RUDDER DEFLECTION PCT</Variable>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>rudder_trim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>RUDDER TRIM PCT</Variable>
                     <Units>percent</Units>
                     <Bias>50</Bias>
                 </Sim>
