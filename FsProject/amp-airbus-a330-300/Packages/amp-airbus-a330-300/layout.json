@@ -147,8 +147,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/aircraft.cfg",
-      "size": 3386,
-      "date": 132573766181245034
+      "size": 2847,
+      "date": 132575233637199320
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/approach.FLT",
@@ -202,8 +202,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/flight_model.cfg",
-      "size": 22359,
-      "date": 132574619908605001
+      "size": 21769,
+      "date": 132575233629085312
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/gameplay.cfg",
@@ -272,8 +272,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A330_300_EXTERIOR.xml",
-      "size": 13283,
-      "date": 132574610837852512
+      "size": 13284,
+      "date": 132575215831537131
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.bin",
@@ -787,8 +787,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/systems.cfg",
-      "size": 22922,
-      "date": 132573766175857785
+      "size": 22572,
+      "date": 132575233620714407
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/target_performance.cfg",
