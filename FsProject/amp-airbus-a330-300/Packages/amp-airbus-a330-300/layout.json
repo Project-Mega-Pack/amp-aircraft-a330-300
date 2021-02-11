@@ -203,7 +203,7 @@
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/flight_model.cfg",
       "size": 22359,
-      "date": 132574572232032996
+      "date": 132574619908605001
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/gameplay.cfg",
@@ -272,8 +272,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A330_300_EXTERIOR.xml",
-      "size": 13282,
-      "date": 132574526593762275
+      "size": 13283,
+      "date": 132574610837852512
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.bin",

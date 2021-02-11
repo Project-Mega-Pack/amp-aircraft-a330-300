@@ -210,7 +210,7 @@
 	
 	<PartInfo>
         <Name>elevators</Name>
-        <AnimLength>80</AnimLength>
+        <AnimLength>100</AnimLength>
         <Animation>
             <Parameter>
                 <Sim>
@@ -328,7 +328,7 @@
 
 	<PartInfo>
         <Name>rudder</Name>
-        <AnimLength>80</AnimLength>
+        <AnimLength>100</AnimLength>
         <Animation>
             <Parameter>
                 <Sim>
