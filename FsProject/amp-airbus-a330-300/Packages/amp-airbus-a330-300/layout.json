@@ -218,57 +218,57 @@
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR.xml",
       "size": 132186,
-      "date": 132575634903589379
+      "date": 132531275187330859
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD00.bin",
       "size": 20293816,
-      "date": 132576421065724336
+      "date": 132576515191949282
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD00.gltf",
-      "size": 2509730,
-      "date": 132576421065974119
+      "size": 2509794,
+      "date": 132576515192318389
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD01.bin",
       "size": 14298754,
-      "date": 132576421071743060
+      "date": 132576515199947933
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD01.gltf",
-      "size": 2479600,
-      "date": 132576421072058160
+      "size": 2479660,
+      "date": 132576515200287943
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD02.bin",
       "size": 5485608,
-      "date": 132576421074717698
+      "date": 132576515204557894
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD02.gltf",
       "size": 54297,
-      "date": 132576421074737652
+      "date": 132576515204577838
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD03.bin",
       "size": 2090922,
-      "date": 132576421075016905
+      "date": 132576515205036633
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD03.gltf",
       "size": 46449,
-      "date": 132576421075036850
+      "date": 132576515205061968
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD04.bin",
       "size": 584086,
-      "date": 132576421075196425
+      "date": 132576515205360886
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A320_NEO_INTERIOR_LOD04.gltf",
       "size": 36811,
-      "date": 132576421075216369
+      "date": 132576515205370894
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/A330_300_EXTERIOR.xml",
@@ -278,12 +278,17 @@
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.bin",
       "size": 29160544,
-      "date": 132576421062005078
+      "date": 132576515176514407
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.gltf",
       "size": 364454,
-      "date": 132576421062173422
+      "date": 132576515176633880
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/Exterior_A330.xml",
+      "size": 104,
+      "date": 132573766181245034
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/model/model.CFG",
@@ -801,14 +806,634 @@
       "date": 132575633940989583
     },
     {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK01_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117442678753
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK01_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117442688720
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK01_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117443113143
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK01_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117443113143
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK01_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117443478775
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK01_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117443498719
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK02_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117443722394
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK02_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117443722394
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK02_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117444155466
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK02_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117444165448
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK02_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117444407833
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_BACK02_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117444407833
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSALPHA_ALBD.PNG.DDS",
+      "size": 1398256,
+      "date": 132531275184239151
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSALPHA_ALBD.PNG.DDS.json",
+      "size": 119,
+      "date": 132531275184249133
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSALPHA_COMP.PNG.DDS",
+      "size": 349700,
+      "date": 132531275184259389
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSALPHA_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132531275184269431
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSALPHA_NORM.PNG.DDS",
+      "size": 1398256,
+      "date": 132531275184338899
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSALPHA_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132531275184338899
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_ALBD.TIF.DDS",
+      "size": 1398256,
+      "date": 132531275188283336
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_ALBD.TIF.DDS.FLAGS",
+      "size": 18,
+      "date": 132527117444941958
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_ALBD.TIF.DDS.json",
+      "size": 119,
+      "date": 132531275188283336
+    },
+    {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_EMIS.PNG.dds",
       "size": 4194432,
       "date": 132576410132113510
     },
     {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_EMIS.PNG.DDS.FLAGS",
+      "size": 18,
+      "date": 132527117444991829
+    },
+    {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_EMIS.PNG.DDS.json",
       "size": 102,
       "date": 132576410132971591
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_NORM.PNG.DDS",
+      "size": 1398256,
+      "date": 132527117445068761
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_DECALSTEXT_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117445078727
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_FLOOR_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117445257452
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117445267351
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_FLOOR_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117445626403
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_FLOOR_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117445626403
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_FLOOR_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117445915248
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_FLOOR_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117445925224
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_GLARESHIELD_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132531275184640916
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_GLARESHIELD_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132531275184650880
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_GLARESHIELD_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132531275185069500
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_GLARESHIELD_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132531275185069500
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_GLARESHIELD_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132531275185301000
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_GLARESHIELD_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132531275185301000
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS01_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132531275185480528
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS01_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132531275185490517
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS01_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117447528345
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS01_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117447538267
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS01_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117448013586
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS01_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117448023553
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS02_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117448288769
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS02_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117448288769
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS02_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117448760602
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS02_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117448919283
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS02_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117449373704
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_INPUTS02_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117449383670
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_ALBD.PNG.DDS",
+      "size": 699192,
+      "date": 132527117449443508
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117449453492
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_COMP.PNG.DDS",
+      "size": 1398276,
+      "date": 132527117449563189
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117449573174
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_EMIS.PNG.DDS",
+      "size": 174904,
+      "date": 132531275185501206
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_EMIS.PNG.DDS.json",
+      "size": 102,
+      "date": 132531275185501206
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_NORM.PNG.DDS",
+      "size": 349680,
+      "date": 132531275185520436
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_LIGHTS_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132531275185520436
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_MAINPANEL_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117449867525
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_MAINPANEL_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117449877495
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_MAINPANEL_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132531275185925785
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_MAINPANEL_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132531275185925785
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_MAINPANEL_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117450605250
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_MAINPANEL_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117450615228
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_OVERHEAD_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117450874184
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_OVERHEAD_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117450884167
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_OVERHEAD_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117451305863
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_OVERHEAD_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117451315836
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_OVERHEAD_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117451445524
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_OVERHEAD_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117451459723
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PANELSOFT_NORM.PNG.DDS",
+      "size": 87536,
+      "date": 132527117451468864
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PANELSOFT_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117451468864
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDALS_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117451660148
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDALS_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117451670123
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDALS_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117452063029
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDALS_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117452063029
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDALS_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117452328586
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDALS_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117452338564
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDESTAL_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117452558166
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDESTAL_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117452568014
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDESTAL_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117452963635
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDESTAL_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117452963635
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDESTAL_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117453173091
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_PEDESTAL_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117453183059
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATBELT_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132531275175040731
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATBELT_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132531275175040731
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATBELT_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132531275175360112
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATBELT_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132531275175360112
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATBELT_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132531275175639350
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATBELT_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132531275175649687
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATS_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117453560652
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATS_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117453560652
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATS_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132531275186339642
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATS_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132531275186339642
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATS_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117454400676
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SEATS_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117454420623
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDEPANELS_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117454619555
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDEPANELS_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117454629522
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDEPANELS_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117455051631
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDEPANELS_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117455058866
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDEPANELS_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117455315212
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDEPANELS_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117455325187
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDESTICKS_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117455478772
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDESTICKS_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117455488749
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDESTICKS_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117455884274
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDESTICKS_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117455894248
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDESTICKS_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117456223375
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDESTICKS_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117456233348
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDETOP_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117456452767
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDETOP_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117456472703
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDETOP_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117456900146
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDETOP_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117456910124
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDETOP_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117457223150
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_SIDETOP_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117458053534
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_THROTTLE_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117458252995
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_THROTTLE_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117458258812
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_THROTTLE_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132531275188641984
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_THROTTLE_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132531275188641984
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_THROTTLE_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117458928559
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_THROTTLE_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117458938541
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_TOPPANEL_ALBD.PNG.DDS",
+      "size": 2796344,
+      "date": 132527117459138872
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_TOPPANEL_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132527117459148846
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_TOPPANEL_COMP.PNG.DDS",
+      "size": 5592580,
+      "date": 132527117459528654
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_TOPPANEL_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132527117459538627
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_TOPPANEL_NORM.PNG.DDS",
+      "size": 5592560,
+      "date": 132527117459813777
+    },
+    {
+      "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/A320NEO_COCKPIT_TOPPANEL_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132527117459823764
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/C GEAR_BASE_COLOR.PNG.DDS",
@@ -972,8 +1597,8 @@
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/texture.CFG",
-      "size": 328,
-      "date": 132575633924611705
+      "size": 287,
+      "date": 132576493308720756
     },
     {
       "path": "SimObjects/Airplanes/amp-airbus-a330-300/TEXTURE.DEFAULT/TIRES_BASE_COLOR.PNG.DDS",
