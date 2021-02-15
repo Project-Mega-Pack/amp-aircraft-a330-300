@@ -19,14 +19,8 @@
 	<Animation name="l_tire_anim" 			guid="59A85118-0DDD-46D1-81BC-62B7E1A46782" length="100" type="Sim" typeParam2="l_tire_anim" typeParam="AutoPlay" />  
 	<Animation name="r_tire_anim" 			guid="0FE2DDBC-B7B0-41EC-9B7A-EE04C5B02446" length="100" type="Sim" typeParam2="r_tire_anim" typeParam="AutoPlay" />	
 
-	<Animation name="engine_blurred_l" 		guid="a30d1108-0e02-4e78-a41a-4c072a815e90" length="100" type="Sim" typeParam2="engine_blurred_l" typeParam="AutoPlay" />
-	<Animation name="engine_slow_l" 	    guid="b964023e-998f-40bf-9875-19f21c3b8031" length="100" type="Sim" typeParams2="engine_slow_l" typeParam="AutoPlay" />
-	<Animation name="engine_still_l" 		guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" length="100" type="Sim" typeParam2="engine_still_l" typeParam="AutoPlay" />
 	<Animation name="l_reversers" 			guid="cd72f6d2-f8ba-4ae4-a433-7454a3238b69" length="100" type="Sim" typeParam2="l_reversers" typeParam="AutoPlay" />
 	
-	<Animation name="engine_blurred_r" 		guid="5b073f14-9565-45fb-8100-f42b305e56da" length="100" type="Sim" typeParam2="engine_blurred_r" typeParam="AutoPlay" />
-	<Animation name="engine_slow_r" 		guid="7fb09199-1c16-4b20-a43d-abd472cabc00" length="100" type="Sim" typeParam2="engine_slow_r" typeParam="AutoPlay" />
-	<Animation name="engine_still_r" 		guid="12311351-ac2c-4b4e-af4b-1fd1a4104dc1" length="100" type="Sim" typeParam2="engine_still_r" typeParam="AutoPlay" />
 	<Animation name="r_reversers" 			guid="1dcfa717-9dd1-4690-af47-2b0094146685" length="100" type="Sim" typeParam2="r_reversers" typeParam="AutoPlay" />
 
 	<Animation name="elevators" 	        guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam2="elevators" typeParam="AutoPlay" />
@@ -45,83 +39,6 @@
 	<Animation name="rudder_trim" 	        guid="9ccd997c-401c-4ab2-aecc-b9acdea1c4e6" length="100" type="Sim" typeParam2="rudder_trim" typeParam="AutoPlay" />
 
 	<Animation name="l_door" 	            guid="88f02add-0dd2-4ae0-9c45-d0c84ddde437" length="100" type="Sim" typeParam2="l_door" typeParam="AutoPlay" />
-	
-  <PartInfo>
-    <Name>engine_still_l</Name>
-    <AnimLength>100</AnimLength>
-    <Visibility>
-      <Parameter>
-        <Code>
-          (A:TURB ENG N1:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-  </PartInfo>
-
-  <PartInfo>
-      <Name>engine_slow_l</Name>
-        <AnimLength>100</AnimLength>
-        <Visibility>
-            <Parameter>
-                <Code>
-                    (A:TURB ENG N1:1, percent) 6.25 &gt;
-                    if{
-                        (A:TURB ENG N1:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                    } els{ 0 }
-                </Code>
-            </Parameter>
-        </Visibility>
-    </PartInfo>
-    
-    <PartInfo>
-        <Name>engine_blurred_l</Name>
-        <AnimLength>100</AnimLength>
-        <Visibility>
-            <Parameter>
-                <Code>
-            (A:TURB ENG N1:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
-                </Code>
-            </Parameter>
-        </Visibility>
-    </PartInfo>
-	<PartInfo>
-    <Name>engine_still_r</Name>
-    <AnimLength>100</AnimLength>
-    <Visibility>
-      <Parameter>
-        <Code>
-          (A:TURB ENG N1:2, percent) 6.25 &lt; if{ 1 } els{ 0 }
-        </Code>
-      </Parameter>
-    </Visibility>
-  </PartInfo>
-
-  <PartInfo>
-      <Name>engine_slow_r</Name>
-        <AnimLength>100</AnimLength>
-        <Visibility>
-            <Parameter>
-                <Code>
-                    (A:TURB ENG N1:2, percent) 6.25 &gt;
-                    if{
-                        (A:TURB ENG N1:2, percent) 12.5 &lt; if{ 1 } els{ 0 }
-                    } els{ 0 }
-                </Code>
-            </Parameter>
-        </Visibility>
-    </PartInfo>
-    
-    <PartInfo>
-        <Name>engine_blurred_r</Name>
-        <AnimLength>100</AnimLength>
-        <Visibility>
-            <Parameter>
-                <Code>
-            (A:TURB ENG N1:2, percent) 12.5 &gt; if{ 1 } els{ 0 }
-                </Code>
-            </Parameter>
-        </Visibility>
-    </PartInfo>
 	
 	<PartInfo>
         <Name>c_gear</Name>
@@ -357,7 +274,23 @@
     <Behaviors>
         <Include ModelBehaviorFile="Asobo\Exterior.xml"/>
         <Component ID="ENGINE">
-            <UseTemplate Name="ASOBO_ENGINE_Turbine_ReverseThrust_Template">
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
+				<ID>1</ID>
+				<ANIM_NODE_ID>engine_l</ANIM_NODE_ID>
+				<ANIM_NAME>engine_l</ANIM_NAME>
+				<STILL_NODE_ID>PROP_STILL_LEFT</STILL_NODE_ID>
+				<SLOW_NODE_ID>PROP_SLOW_LEFT</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>PROP_BLURRED_LEFT</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
+				<ID>2</ID>
+				<ANIM_NODE_ID>engine_r</ANIM_NODE_ID>
+				<ANIM_NAME>engine_r</ANIM_NAME>
+				<STILL_NODE_ID>PROP_STILL_RIGHT</STILL_NODE_ID>
+				<SLOW_NODE_ID>PROP_SLOW_RIGHT</SLOW_NODE_ID>
+				<BLURRED_NODE_ID>PROP_BLURRED_RIGHT</BLURRED_NODE_ID>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_ReverseThrust_Template">
 				<ID>1</ID>
 				<ANIM_NAME>l_reversers</ANIM_NAME>
 			</UseTemplate>
@@ -365,7 +298,7 @@
 				<ID>2</ID>
 				<ANIM_NAME>r_reversers</ANIM_NAME>
 			</UseTemplate>
-        </Component>
+		</Component>
         <Component ID="GEARS">
             <UseTemplate Name="ASOBO_GEAR_Steering_Template">
 				<ANIM_NAME>c_wheel</ANIM_NAME>
