@@ -4,11 +4,11 @@
 		<!-- Highest LOD -->
 		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
 		<!-- default minSize is 0 -->
-		<LOD minSize="150" ModelFile="A330_INTERIOR_LOD00.gltf"/>
-		<LOD minSize="100" ModelFile="A330_INTERIOR_LOD01.gltf"/>
-		<LOD minSize="60" ModelFile="A330_INTERIOR_LOD02.gltf"/>
-		<LOD minSize="20" ModelFile="A330_INTERIOR_LOD03.gltf"/>
-		<LOD minSize="10" ModelFile="A330_INTERIOR_LOD04.gltf"/>
+		<LOD ModelFile="A330_INTERIOR_LOD00.gltf" minSize="150"/>
+		<LOD ModelFile="A330_INTERIOR_LOD01.gltf" minSize="100"/>
+		<LOD ModelFile="A330_INTERIOR_LOD02.gltf" minSize="60"/>
+		<LOD ModelFile="A330_INTERIOR_LOD03.gltf" minSize="20"/>
+		<LOD ModelFile="A330_INTERIOR_LOD04.gltf" minSize="10"/>
 
 	</LODS>
 	<Behaviors>
