@@ -1,0 +1,119 @@
+{
+  "content": [
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/aircraft.cfg",
+      "size": 1251,
+      "date": 132589610683326590
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_FUSELAGE_ALBD.PNG.DDS",
+      "size": 11184952,
+      "date": 132589596975439372
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_FUSELAGE_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132589596970369363
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_FUSELAGE_COMP.PNG.DDS",
+      "size": 22369796,
+      "date": 132589596552932267
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_FUSELAGE_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132589596547232500
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_FUSELAGE_NORM.PNG.DDS",
+      "size": 22369776,
+      "date": 132589596445003710
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_FUSELAGE_NORM.PNG.DDS.json",
+      "size": 160,
+      "date": 132589596434735480
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINDOWS_ALBD.PNG.DDS",
+      "size": 87536,
+      "date": 132589595745538801
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINDOWS_ALBD.PNG.DDS.json",
+      "size": 119,
+      "date": 132589595744818797
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINDOWS_EMIS.PNG.DDS",
+      "size": 1398256,
+      "date": 132589595886716210
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINDOWS_EMIS.PNG.DDS.json",
+      "size": 119,
+      "date": 132589595885676222
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINGS_ALBD.PNG.DDS",
+      "size": 11184952,
+      "date": 132589596303565284
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINGS_ALBD.PNG.DDS.json",
+      "size": 102,
+      "date": 132589596295649234
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINGS_COMP.PNG.DDS",
+      "size": 22369796,
+      "date": 132589597141624747
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/A330_300_EXTERIOR_WINGS_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132589597133514749
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/ENGINE_ALBEDO.PNG.DDS",
+      "size": 11184952,
+      "date": 132589596805762674
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/ENGINE_ALBEDO.PNG.DDS.json",
+      "size": 102,
+      "date": 132589596797092965
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/ENGINE_COMP.PNG.DDS",
+      "size": 22369796,
+      "date": 132589596426133787
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/ENGINE_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132589596417073830
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/ENGINE_NORMAL.PNG.DDS",
+      "size": 22369776,
+      "date": 132589596080353000
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/ENGINE_NORMAL.PNG.DDS.json",
+      "size": 160,
+      "date": 132589596071835094
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/EXTERIOR DECALS_ALBEDO.PNG.DDS",
+      "size": 22369776,
+      "date": 132589595769798881
+    },
+    {
+      "path": "SimObjects/Airplanes/pmp-a330-300-Livery_Template/TEXTURE.TEMPLATE/EXTERIOR DECALS_ALBEDO.PNG.DDS.json",
+      "size": 119,
+      "date": 132589595764988893
+    }
+  ]
+}
