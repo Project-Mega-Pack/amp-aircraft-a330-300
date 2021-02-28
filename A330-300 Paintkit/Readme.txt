@@ -1,0 +1,2 @@
+Once completed livery in substance export using the fs2020 presets for albedo, comp.
+once exported open in photoshop or any program with dds converter and overwrite the template albedo and comp files in the livery.template folder in community.
