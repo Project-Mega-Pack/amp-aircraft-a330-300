@@ -11,3 +11,6 @@ To create liveries, use the `PMP_A330_300_Livery_Template`.
 
 **Cockpit Subject To**...
 Microsoft Flight Simulator © Microsoft Corporation. The Project Mega Pack A330 was created under Microsoft's "Game Content Usage Rules" using assets from Microsoft Flight Simulator 2020, and it is not endorsed by or affiliated with Microsoft.
+
+## Contributing
+Please read our documentation, https://wiki.projectmegapack.com/. To Contribute, simply fork the repositiory and submit a pull request.
