@@ -60,7 +60,7 @@
         <Animation>
             <Parameter>
                 <Sim>
-                    <Variable>GEAR ANIMATION POSITION:2</Variable>
+                    <Variable>GEAR ANIMATION POSITION:1</Variable>
                 </Sim>
             </Parameter>
         </Animation>
