@@ -5,7 +5,7 @@
 		<!-- Highest LOD -->
 		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
 		<!-- default minSize is 0 -->
-		<LOD ModelFile="Exterior_A330.gltf" minSize="50"/>
+		<LOD ModelFile="Exterior_A330.gltf" minSize="1"/>
 
 
 	</LODS>
