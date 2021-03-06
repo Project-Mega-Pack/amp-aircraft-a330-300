@@ -5,6 +5,8 @@ To install, simply drop `PMP_A330_300` into your Community Folder.
 
 To create liveries, use the `PMP_A330_300_Livery_Template`.
 
+--
+
 The original contents of this repository are DUAL LICENSED.
 
 Original textual-form source code in this repository is licensed under the GNU General Public License version 3.
