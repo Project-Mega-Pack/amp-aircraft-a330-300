@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+**Before Creating, Please Make sure this is not a duplicate issue. Further, our aircraft is NOT COMPATIBLE with abadstudios or A32nx, YOU MUST UNINSTALL THEM BEFORE USE.**
+
 **Description**
 A clear and concise description of what the bug is.
 
