@@ -2,7 +2,7 @@
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\amp-airbus-a330-300.xml</Package>
+		<Package>PackageDefinitions\projectmegpack-airbus-a330-300.xml</Package>
 	</Packages>
 </Project>
 

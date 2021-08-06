@@ -1,16 +1,5 @@
 <TimestampID>
-	<OutputID Path="C:\PROGRAM FILES\WINDOWSAPPS\MICROSOFT.FLIGHTSIMULATOR_1.11.7.0_X64__8WEKYB3D8BBWE\Packages\" ID="Output_0"/>
-	<OutputID Path="C:\Users\James Lepone\Documents\MyFSProjects\SimpleAircraft\Packages" ID="Output_1"/>
-	<OutputID Path="C:\Users\James Lepone\Documents\MyFSProjects\AMP_Airbus_A330_300\Packages" ID="Output_2"/>
-	<OutputID Path="C:\Users\James Lepone\Documents\MyFSProjects\amp-airbus-a330-300\Packages" ID="Output_3"/>
-	<OutputID Path="C:\PROGRAM FILES\WINDOWSAPPS\MICROSOFT.FLIGHTSIMULATOR_1.12.13.0_X64__8WEKYB3D8BBWE\Packages\" ID="Output_4"/>
-	<OutputID Path="H:\MSFS2020Template\Aircraft Mega Pack\amp-aircraft-a330-300\FsProject\amp-airbus-a330-300-new\Packages" ID="Output_5"/>
-	<OutputID Path="H:\MSFS2020Template\Aircraft Mega Pack\amp-aircraft-a330-300\FsProject\amp-airbus-a330-300\Packages" ID="Output_6"/>
-	<OutputID Path="C:\Users\danie\Downloads\amp-airbus-a330-300\Packages" ID="Output_7"/>
-	<OutputID Path="D:\MSFS 2020\Projects\amp-airbus-a330-300\Packages" ID="Output_8"/>
-	<OutputID Path="C:\PROGRAM FILES\WINDOWSAPPS\MICROSOFT.FLIGHTSIMULATOR_1.13.16.0_X64__8WEKYB3D8BBWE\Packages\" ID="Output_9"/>
-	<OutputID Path="D:\MSFS 2020\Projects\amp-aircraft-a330-300-dev\FsProject\amp-airbus-a330-300\Packages" ID="Output_10"/>
-	<OutputID Path="E:\FSAddons\Projects\a330\amp-aircraft-a330-300\FsProject\amp-airbus-a330-300\Packages" ID="Output_11"/>
-	<OutputID Path="C:\PROGRAM FILES\WINDOWSAPPS\MICROSOFT.FLIGHTSIMULATOR_1.13.17.0_X64__8WEKYB3D8BBWE\Packages\" ID="Output_12"/>
+	<OutputID Path="C:\Users\yagom\Documents\GitHub\amp-aircraft-a330-300\FsProject\amp-airbus-a330-300\Packages" ID="Output_0"/>
+	<OutputID Path="C:\Users\yagom\Documents\GitHub\amp-aircraft-a330-300\FsProject\amp-airbus-a330-300\" ID="Output_1"/>
 </TimestampID>
 
