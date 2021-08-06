@@ -1,8 +1,0 @@
-<Project Version="2" Name="amp-airbus-a330-300" FolderName="Packages">
-	<OutputDirectory>.</OutputDirectory>
-	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
-	<Packages>
-		<Package>PackageDefinitions\projectmegpack-airbus-a330-300.xml</Package>
-	</Packages>
-</Project>
-
