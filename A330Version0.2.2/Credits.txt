@@ -1,0 +1,35 @@
+Created by the Project Mega Pack Team
+
+Resource and Project Management by Clink123#4567
+Engine Sounds Created By Kairi#5160, FTSIM+ Sounds, Added With Permission of Kairi#5160, for Proof, ask Clink123#4567
+Modeling by Robo#3441, cristofer#2408, Qbit#3069, tompis#6969, jtreiman#5579, Reecee#6584
+Effects, Cameras, by DEJHUR1#4125
+File changes, management by Nerbulus#7950
+Flight model by [Z+3] -Pro-pilot#5218, Clink123#4567
+Textures by Blueberry Lollipop#9663
+GearTextures by slipnoidz and aircanada777
+P2F version by Marajin
+Revised cockpit textures by Simswim
+A32NX compatibility by tyler58546
+
+Thank you to all involved. We could not have done it without you.
+
+Cockpit Subject To...
+Microsoft Flight Simulator © Microsoft Corporation. The Project Mega Pack A330 was created under Microsoft's "Game Content Usage Rules" using assets from Microsoft Flight Simulator 2020, and it is not endorsed by or affiliated with Microsoft.
+
+Version 0.2.2
+	- Hotfix for compatibility with STOCK SimUpdate5 version of the Airbus.
+Version 0.2.1(A.K.A. SU5Update)
+	-Revised cockpit textures.
+	-Added gear textures.
+	-Added FBW A32NX compatibility.
+	-P2F variant added
+	-Fuel flow corrected to better reflect accurate A330 usage.
+	-Bugs fixed.
+What to expect for V0.3?
+	major 3d model overhaul.
+	3rd MCDU.
+	improved cockpit.
+	improved textures.
+	and some extra stuff ;)
+
